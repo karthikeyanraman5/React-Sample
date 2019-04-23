@@ -7,7 +7,7 @@ import Cockpit from '../components/Cockpit/Cockpit';
 class App extends Component {
   constructor(props) {
     super(props);
-    console.log('[App.js] constructor');
+    
   }
 
   state = {
@@ -16,6 +16,7 @@ class App extends Component {
       { id: 'vasdf1', name: 'Manu', age: 29 },
       { id: 'asdf11', name: 'Stephanie', age: 26 }
     ],
+
     otherState: 'some other value',
     showPersons: false
   };
